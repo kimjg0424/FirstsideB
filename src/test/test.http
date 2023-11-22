@@ -1,0 +1,10 @@
+###
+POST localhost:8080/api/singup
+Content-Type: application/json
+
+ {
+  "email": "kjg@naver.com",
+  "password": "kjgdlqslek",
+  "name": "김정기",
+  "grade" : "일반회원"
+}
