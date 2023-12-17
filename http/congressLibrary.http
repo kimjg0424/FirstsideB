@@ -1,4 +1,9 @@
-GET http://localhost:8080/api/congressLibrary/select?apitype=json?pageSize=1?licYn=N
+POST http://localhost:8080/api/congressLibrary/select
+Content-Type: application/json
 
+{
+  "apiType": "json",
+  "pageSize" : 1,
+  "licYn": "N"
 
-
+}
