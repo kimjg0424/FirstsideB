@@ -1,0 +1,4 @@
+GET http://localhost:8080/api/congressLibrary/select?apitype=json?pageSize=1?licYn=N
+
+
+

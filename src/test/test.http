@@ -1,10 +1,17 @@
+GET http://localhost:8080/api/board/1
+Accept: application/json
+
 ###
-POST localhost:8080/api/singup
+DELETE http://localhost:8080/api/board/99
 Content-Type: application/json
 
- {
-  "email": "kjg@naver.com",
-  "password": "kjgdlqslek",
-  "name": "김정기",
-  "grade" : "일반회원"
+{
+  "id" : 7,
+ "title" : "세상에서 제일 예쁜 수린이 공주임!",
+ "content" : "세상에서 제일 예쁜 수린이 공주임!",
+ "adminViews" : 20,
+ "userViews" : 23,
+ "likes" : 54
 }
+
+
